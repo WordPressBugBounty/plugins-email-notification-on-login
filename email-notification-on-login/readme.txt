@@ -4,9 +4,9 @@ Donate link: https://apasionados.es/
 Author URI: https://apasionados.es/
 Tags: login notification, admin login notification, email notification, email notify on admin login, email notify on login
 Requires at least: 4.0.1
-Tested up to: 6.3
+Tested up to: 6.9
 Requires PHP: 5.5
-Stable tag: 1.6.1
+Stable tag: 1.7.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -98,6 +98,9 @@ Of course we do. That's why we created it. ;-)
 
 == Changelog ==
 
+= 1.7.0 (07/02/2024) =
+* Made changes to prevent warnings when using PHP >8.2.x: "PHP Warning:  session_start(): Session cannot be started after headers have already been sent"
+
 = 1.6.1 (16/05/2022) =
 * Updated language file names from apa-enol-xx_XX to email-notification-on-login-xx_XX to make the text domain match the plugin URL.
 
@@ -130,8 +133,8 @@ Of course we do. That's why we created it. ;-)
 
 == Upgrade Notice ==
 
-= 1.6.1 =
-UPDATED: Changed text-domain to match plugin slug.
+= 1.7.0 =
+UPDATED: Made changes to prevent warnings when using PHP >8.2.x
 
 == Contact ==
 

@@ -1,9 +1,9 @@
 <?php
-
+ob_start();
 /*
 Plugin Name: Email Notification on login
 Description: This plugin sends an email to the WordPress System email (Settings / General / Email Address) or any other configured email address each time somebody logs into WordPress. This is handy if there are not many logins each day or week to keep track of all of them and being able to detect non authorized logins.
-Version: 1.6.1
+Version: 1.7.0
 Author: Apasionados
 Author URI: https://apasionados.es/
 License:     GPL2
@@ -203,4 +203,5 @@ function apa_enol_f_init() {
 
 # ♫ This is where the story ends, this is goodbye ♫
 # EOF
+ob_end_flush();
 ?>
